@@ -9,6 +9,10 @@ html {
     box-sizing: inherit;
 }
 
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
 body {
     display: flex;
     margin: 0;
@@ -44,6 +48,7 @@ h2 {
     margin: 0;
     transform: rotate(-45deg);
     text-shadow: 0 0 5px #01579b;
+    transition: transform 0.5s;
 }
 
 #florida {
